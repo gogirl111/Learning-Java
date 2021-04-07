@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <body style="background-color:RGB(200,200,220,0.8); color:navy; font-family: arial;">
+ 
+ <h1> JavaScript Display Possibilities. JavaScript can "display" data in different ways:</h1>
+
+   <p id="demo" style="color:red;"> Scripts </p>
+
+  <p> - Writing into an HTML element, using innerHTML. </p>
+  <p> - Writing into the HTML output using document.write().</p>
+  <p> - Writing into an alert box, using window.alert().</p>
+  <p> - Writing into the browser console, using console.log().</p>
+
+  <h2 id="innerhtml"> <u> innerHTML </u> </h2>
+  <p style="color:red;"> Semantica: <strong> document.getElementById("ID").innerHTML="value";</strong> </p>
+  <p> So let's test this puppy again: </p>
+  <script> document.getElementById("demo").innerHTML="You cannot style a script";   </script>
+  <p> ok.--> document.getElementById("ID").innerHTML="aqui"; dentro da script tag </p>
+
+  <h2 id="documentwrite"> <u> document.write() </u> </h2>
+  <p style="color:red;"> Semantica: <strong> document.write("ID")";</strong></p>
+  <p> Document write is very simple. You use --> document.write("value") and will display whatever is in the parentesis. </p>
+  <p style="border:2px dashed red; border-radius: 5px; background-color: yellow; padding: 20px;"> Using document.write() after an HTML document is loaded, will delete all existing HTML </p>
+  <script> document.write("Mas eu run e nao apagou nada. Quale filho?") </script>
+  <button type="button" onclick="document.write(5+5)">Try it, vai apagar</button>
+
+  <h2 id="windowalert"> <u> window.alert() </u> </h2>
+  <p style="color:red;"> Semantica: <strong> alert("value") </p>
+  <script> alert("Entre parentesis e aspas vai aparecer na janelinha nao precisa de ponto e virgula") </script>
+  <p style="font-size: 14px; color: green;"> O que vc coloca no value aparece na janelinha </p>
+  
+  <h2 id="windowprint"> <u> window.print() </u> </h2>
+  <p style="color:red;"> Semantica: <strong> window.print(value) </p>
+  <p> button onclick="window.print()" </p>
+  <p>Click the button to print the current page.</p>
+  <button onclick="window.print()">Aperta e imprimi mano</button>
+
+</body>
+</html>
