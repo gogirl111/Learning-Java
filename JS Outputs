@@ -34,6 +34,25 @@
   <p> button onclick="window.print()" </p>
   <p>Click the button to print the current page.</p>
   <button onclick="window.print()">Aperta e imprimi mano</button>
+  
+  <!DOCTYPE html>
+<html>
+<body style="font-family: arial;">
+
+
+<h2> <u> Entao os scripts mesmo no basico sao assim: </u> </h2>
+
+<p> document.getElementById().innerHTML = ; </p>
+<p> document.write(); </p>
+<p> window.print(); </p>
+<p> alert(); <p>
+<p> console.log(); </p>
+
+<button onclick="window.print()"> Aperta aqui! </button>
+
+
+</body>
+</html> 
 
 </body>
 </html>
